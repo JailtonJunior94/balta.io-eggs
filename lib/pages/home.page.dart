@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
               textAlign: TextAlign.center,
             ),
             Eggs(),
-            Padding(padding: const EdgeInsets.all(20), child: TypeButtons()),
+            Padding(padding: const EdgeInsets.all(10), child: TypeButtons()),
             Progress(),
             SizedBox(height: 20),
             Padding(padding: EdgeInsets.all(20), child: ActionButtons()),
